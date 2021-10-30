@@ -1,0 +1,91 @@
+body
+{
+	background-image:url('https://wallpaperaccess.com/full/1288325.jpg');
+	background-size:cover;
+	
+}
+h2,h3
+{
+	color:silver;
+}
+.container
+{
+	width:75%;
+	border:3px solid black;
+	align-items:center;
+	text-align:center;
+	margin:0 auto;
+}
+
+.row2
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	padding:5px;	
+	padding-top: 0px;
+}
+.row3 div
+{
+	border: 3px solid black;
+	padding:5px;
+	margin:0 auto;
+	
+}
+.row4
+{
+	padding:5px;
+}
+.row2 div
+{
+	flex:1;
+	border:3px solid black;
+	padding-top:10px;
+	margin:3px;
+	height:370px;
+	color:white;
+	font-size:20px;	
+	font-weight:bold;
+	margin-top:0px;
+	border-radius:5px;
+	background-image: url('https://i.pinimg.com/originals/30/3d/f2/303df291613ff697b2c74867af90a890.jpg');
+	background-position:top ;
+	
+}
+
+.you img, .dealer img
+{
+	display:inline-flex;
+	height:35%;
+	width:25%;
+	padding:8px;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+
+table,th,td
+{
+	border: 1px solid black;
+	margin: 0 auto;
+	background-color:grey;
+	
+}
+#hit
+{
+	background-color:blue;
+	border-radius:5px;
+	padding:3px;
+}
+#stand
+{
+	background-color:yellow;
+	border-radius:5px;
+	padding:3px;
+}
+#deal
+{
+	background-color:red;	
+	border-radius:5px;
+	padding:3px
+}
